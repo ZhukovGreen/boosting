@@ -27,3 +27,6 @@ def normalize(weights):
 def sign(x):
     return 1 if x >= 0 else -1
 
+
+if __name__ == '__main__':
+    print(draw([0.1, 0.2, 0.7]))

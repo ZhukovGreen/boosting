@@ -57,8 +57,8 @@ def defaultError(data, h):
 
 
 def buildDecisionStump(drawExample, errorFunction=defaultError, debug=True):
-    # find the index of the best feature to split on, and the best threshold for
-    # that index
+    """ Find the index of the best feature to split on, and the best threshold
+        for that index"""
 
     data = [drawExample() for _ in range(500)]
 
